@@ -8,30 +8,81 @@
 
 <body>
 
-<div class="container-fluid">
 
-   <div class="navbar">
+		<title>Twitter Bootstrap Carousel</title>
 
-    <div class="navbar-inner">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
 
-     <ul class="nav">
+		<script src="jquery-2.0.3.js"></script>
+
+		<script src="bootstrap.js"></script>
+
+	</head>
+
+	<body>
+
+	    <div class="container">
+
+		<div class="navbar">
+
+			<div class="navbar-inner">
+
+				<a class="brand" href="http://getbootstrap.com/2.3.2/javascript.html#carousel">Twitter Bootstrap Carousel</a>
+
+			</div>
+
+		</div>
+
+		<div id="myCarousel" class="carousel slide">
+
+			<div class="carousel-inner">
+
+				<div class="item active">
+
+					<img src="Ashanti 1.jpg">
+
+				</div>
+
+				<div class="item">
+
+					<img src="Ashanti 2.jpg">
+
+				</div>
+
+				<div class="item">
+
+					<img src="Ashanti 3.jpg">
+
+				</div>
+
+				<div class="item">
+
+					<img src="Ashanti 4.jpg">
+
+				</div>
 
 
-       <li class= "active"><a href="About.html">About</a></li>
+				</div>
 
-       <li><a href="Html.html">Html</a></li>
+			</div>
 
-       <li><a href="CSS.html">CSS</a></li>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 
-      <li><a href="Bootstrap.html">Bootstrap</a></li>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 
-      <li><a href="Github.html">GitHub</a></li>
+		</div>
 
-     </ul>
+		<script>
+			$(document).ready(function(){
+				$('.carousel').carousel();
+			});
+		</script>
 
-    </div>
+	  </div>
 
-  </div>
+	</body>
+
+</html>
 
 
 </body>
